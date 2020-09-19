@@ -20,3 +20,17 @@ conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/
 
 (2)copy command for Govern page with no '-c';
 over
+
+### 3、grub issues in two systems of windows and ubuntu(also named boot-repair)
+### solution: 
+(1) get a usb disk of Ubutu
+
+(2) get in the ubuntu live
+
+(3)open the terminal and input following commands:
+
+#sudo add-apt-repository ppa:yannubuntu/boot-repair && sudo apt-get update
+
+go to etc/apt/yannubuntu-ubuntu-boot-repair-cosmic.list  rewrite it to : deb http://ppa.launchpad.net/yannubuntu/boot-repair/ubuntu bionic main
+
+# sudo apt-get install -y boot-repair && boot-repair
