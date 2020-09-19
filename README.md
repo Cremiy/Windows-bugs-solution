@@ -9,9 +9,13 @@ if you forget the key, you can reset the key by: #: net user administrator <your
 ## solution: 
 
 (1)input following 4 commands:
+
 conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+
 conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+
 conda config --set show_channel_urls yes
+
 conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/
 
 (2)copy command for Govern page with no '-c';
