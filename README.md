@@ -33,4 +33,4 @@ over
 
 go to etc/apt/yannubuntu-ubuntu-boot-repair-cosmic.list  rewrite it to : deb http://ppa.launchpad.net/yannubuntu/boot-repair/ubuntu bionic main
 
-# sudo apt-get install -y boot-repair && boot-repair
+#sudo apt-get install -y boot-repair && boot-repair
